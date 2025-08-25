@@ -28,7 +28,7 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: ['https://anime-you-one.vercel.app', 'http://localhost:3000', 'https://st-ivans.vercel.app']
+  origin: ['https://st-ivans.vercel.app', 'http://localhost:3000']
 }));
 
 // Middleware
